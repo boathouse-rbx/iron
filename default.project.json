@@ -1,0 +1,52 @@
+{
+  "name": "iron",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "MeshPartHeadsAndAccessories": "Enabled",
+        "PhysicsSteppingMethod": "Adaptive",
+        "Retargeting": "Enabled"
+      }
+    },
+    "ReplicatedFirst": {
+      "LoadingScreen": {
+        "$path": "includes/LoadingScreen"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Assets": {
+        "$path": "assets"
+      },
+      "Library": {
+        "$path": "lib"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "BuildInfo": {
+        "$path": "./version.txt"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}

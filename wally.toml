@@ -1,0 +1,21 @@
+[package]
+name = "ewanophobia/iron"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+authors = []
+
+[dependencies]
+Knit = "sleitnick/knit@1.6.0"
+Comm = "sleitnick/comm@^0.1.2"
+Promise = "evaera/promise@^3.1.0"
+Janitor = "howmanysmall/janitor@^1.13.15"
+TableUtil = "sleitnick/table-util@1.1.1"
+ColourUtils = "csqrl/colour-utils@^1.1.0"
+Signal = "sleitnick/signal@1.1.0"
+Component = "sleitnick/component@2.4.6"	
+PID = "sleitnick/pid@1.0.2"
+Fusion = "elttob/fusion@0.2.0"
+
+[dev-dependencies]
+TestEZ = "roblox/testez@^0.4.1"
